@@ -56,8 +56,8 @@ class MainActivity : AppCompatActivity() {
                         if (location == null){
                             requestNewLocationData()
                         } else {
-                            binding.lbllatitud.text = "LATITUD = " + location.latitude.toString()
-                            binding.lbllongitud.text = "LONGITUD = " + location.longitude.toString()
+                            binding.lbllatitud.text = location.latitude.toString()
+                            binding.lbllongitud.text = location.longitude.toString()
 
                         }
                     }
